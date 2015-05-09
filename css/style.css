@@ -1,0 +1,115 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+background: -webkit-repeating-linear-gradient(#143752,#fff) no-repeat; /* For Safari 5.1 to 6.0 */
+}
+
+.wrap{
+width: 370px;
+height: 180px;
+margin: 100px auto;
+border: 1px solid rgba(0, 0, 0, 0.5);
+background: #dce1e3;
+font-family: arial;
+border-radius: 10px;
+-webkit-box-sizing:border-box;
+position: relative;
+}
+.top-part {
+height: 100px;
+}
+
+.profile-pic {
+width: 90px;
+height: 90px;
+overflow: hidden;
+margin: 0 auto;
+margin-top: -50px;
+border-radius: 50%;
+background:url('http://cdn2-b.examiner.com/sites/default/files/styles/image_content_width/hash/ee/f7/Megan%20Fox_6.jpg?itok=DeGQRUKP');
+background-size: cover;
+border:1px solid rgba(0, 0, 0, 0.2);
+}
+.profile-pic img {
+width: 100px;
+}
+.RedDiv {
+width: 25px;
+height: 35px;
+background:#c43025;
+float: right;
+margin-right: 10px;
+position: absolute;
+right: 0;
+top: -1px;
+}
+.number-three {
+width: 18px;
+height: 17px;
+overflow: hidden;
+border-radius: 50%;
+background: #99231f;
+margin-top: 5px;
+margin-left: 4px;
+}
+.number-three h2 {
+font-size: 10px;
+text-align: center;
+color: #fff;
+font-weight: lighter;
+line-height: 18px;
+}
+.RedDiv-Rotate {
+width: 20px;
+height: 18px;
+background: #dce1e3;
+-webkit-transform: rotate(46deg);
+position: absolute;
+bottom: -11px;
+left: 3px;
+}
+
+.top-part h1 {
+text-align: center;
+margin-top: 15px;
+color: #324657;
+font-size: 1.2em;
+}
+
+/*************TOP PART END***************/
+.bottom-part{
+height: 80px;
+width: 100%;
+overflow: hidden;
+background: #f5f5f5;
+margin-top: 48px;
+border-radius: 0 0 10px 10px;
+
+}
+.box{
+float: left;
+width: 33.3333%;
+background: #f5f5f5;
+border-right: 1px #ccc solid;
+height: 100%;
+-webkit-box-sizing:border-box;
+}
+.box:last-child{
+border: none;
+}
+.bottom-part h1{
+padding-top: 20px;
+text-align: center;
+color: #2a8bc7;
+font-size: 1.2em;
+}
+.bottom-part h2{
+color: #4b5d6b;
+text-align: center;
+font-size: 1em;
+}
+span{
+color: #62B34A;
+}
